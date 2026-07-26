@@ -1,0 +1,42 @@
+{
+  "name": "rn-offline-cache",
+  "version": "0.1.0",
+  "description": "Offline-first cache + sync outbox queue for React Native, backed by AsyncStorage.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "offline",
+    "cache",
+    "sync",
+    "async-storage",
+    "outbox"
+  ],
+  "author": "Novasec-spec",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novasec-spec/rn-offline-cache.git"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "@react-native-async-storage/async-storage": ">=1.17.0"
+  },
+  "devDependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@types/react": "^18.3.0",
+    "react": "^18.3.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0"
+  }
+}
