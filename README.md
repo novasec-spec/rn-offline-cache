@@ -1,5 +1,7 @@
 # rn-offline-cache
 
+[![npm version](https://img.shields.io/npm/v/rn-offline-cache?color=cb3837&logo=npm)](https://www.npmjs.com/package/rn-offline-cache) [![npm downloads](https://img.shields.io/npm/dm/rn-offline-cache)](https://www.npmjs.com/package/rn-offline-cache) [![license](https://img.shields.io/npm/l/rn-offline-cache)](LICENSE)
+
 Offline-first cache + sync outbox for React Native, backed by AsyncStorage.
 
 Reads cached data instantly, refreshes from your backend when online, and
@@ -97,5 +99,5 @@ using `useOfflineCache` directly.
 
 ## License
 
-MIT
+[MIT](LICENSE) © John Munga
 
